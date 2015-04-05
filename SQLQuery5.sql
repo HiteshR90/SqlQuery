@@ -1,0 +1,1 @@
+select Name,course_id from instructor,tb_teach where instructor.ID=tb_teach.ID and dept_name='Biology'

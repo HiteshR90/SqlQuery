@@ -1,0 +1,1 @@
+select Course.dept_name from Course where title like '%Intro%'

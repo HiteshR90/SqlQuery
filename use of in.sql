@@ -1,0 +1,1 @@
+select distinct tb_teach.course_id from tb_teach where tb_teach.semester='fall' and tb_teach.year='2009' and tb_teach.course_id in (select distinct tb_teach.course_id from tb_teach where tb_teach.semester='spring' and tb_teach.year='2010')

@@ -1,0 +1,1 @@
+select distinct t.name from instructor as t,instructor as s where t.salary>s.salary and s.dept_name='biology'

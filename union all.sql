@@ -1,0 +1,1 @@
+(select tb_teach.course_id from tb_teach where tb_teach.semester='fall' and year='2009') union all (select tb_teach.course_id from tb_teach where tb_teach.semester='spring' and year='2010') order by tb_teach.course_id

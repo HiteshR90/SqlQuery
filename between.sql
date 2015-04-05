@@ -1,0 +1,1 @@
+select * from instructor where salary between 95000 and 100000

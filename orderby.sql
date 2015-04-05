@@ -1,0 +1,1 @@
+select * from instructor order by Name asc, salary desc

@@ -1,0 +1,1 @@
+select name from instructor where Name not in ('mozart','einstein','Kim')

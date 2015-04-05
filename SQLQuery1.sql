@@ -1,0 +1,1 @@
+select instructor.Name,tb_teach.course_id from instructor,tb_teach where instructor.ID=tb_teach.ID

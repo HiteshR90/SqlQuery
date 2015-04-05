@@ -1,0 +1,1 @@
+select course_id from tb_teach as s where s.semester='fall' and s.year='2009' and exists (select * from tb_teach as t where semester='spring' and year='2010' and t.course_id=s.course_id)

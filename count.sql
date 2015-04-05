@@ -1,0 +1,1 @@
+select COUNT(distinct tb_teach.ID) from tb_teach where semester='fall'

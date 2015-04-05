@@ -1,0 +1,1 @@
+select tb_teach.course_id from tb_teach where tb_teach.semester='spring' and year='2010'
